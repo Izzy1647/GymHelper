@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/start/start",  
+    "pages/run/run",
+    "pages/logs/logs",
+    "pages/exercise/exercise",
+    "pages/my/index",
+    "pages/signin/sign-in",
+    "pages/knowledge/knowledge",
+    "pages/delete/delete"
+        
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#CF8F54",
+    "navigationBarTitleText": "Gymhelper",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#7f8389",
+    "selectedColor": "#CF8F54",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "pagePath": "pages/run/run",
+        "text": "跑步",
+        "iconPath":"pages/images/step.jpg",
+        "selectedIconPath":"pages/images/step-selected.jpg"
+      },
+      {
+        "pagePath": "pages/exercise/exercise",
+        "text": "动作",
+        "iconPath":"pages/images/gym.jpg",
+        "selectedIconPath":"pages/images/gym-selected.jpg"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath":"pages/images/me.jpg",
+        "selectedIconPath":"pages/images/me-selected.jpg"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

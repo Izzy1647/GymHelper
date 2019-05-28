@@ -1,0 +1,198 @@
+<view class="swiper-tab">
+
+<view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">背</view>
+
+<view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">核心</view>
+
+<view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">肩</view>
+
+<view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">手臂</view>
+
+<view class="swiper-tab-list {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="swichNav">腿</view>
+
+<view class="swiper-tab-list {{currentTab==5 ? 'on' : ''}}" data-current="5" bindtap="swichNav">胸</view>
+</view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+
+<swiper-item>
+
+ <view class='scroll_box'>
+ <scroll-view scroll-y="true" style="height:1000rpx"
+ bindscrolltoupper="upper"
+  bindscrolltolower="lower"
+   bindscroll="scroll"
+   scroll-into-view="red"
+     scroll-top="50">
+  <view>
+   <view>动作一</view>
+   <image src="/pages/images/bei1.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作二</view>
+   <image src="/pages/images/bei3.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作三</view>
+   <image src="/pages/images/bei41.jpg" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作四</view>
+   <image src="/pages/images/bei5.gif" style="width:250px"></image>
+  </view>
+ </scroll-view>
+</view>
+</swiper-item>
+
+<swiper-item>
+
+ <view class='scroll_box'>
+ <scroll-view scroll-y="true" style="height:1000rpx"
+ bindscrolltoupper="upper"
+  bindscrolltolower="lower"
+   bindscroll="scroll"
+   scroll-into-view="red"
+     scroll-top="50">
+  <view>
+   <view>动作一</view>
+   <image src="/pages/images/hexin1.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作二</view>
+   <image src="/pages/images/hexin2.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作三</view>
+   <image src="/pages/images/hexin3.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作四</view>
+   <image src="/pages/images/hexin4.gif" style="width:250px"></image>
+  </view>
+   <view>
+   <view>动作五</view>
+   <image src="/pages/images/hexin5.gif" style="width:250px"></image>
+  </view>
+   <view>
+   <view>动作六</view>
+   <image src="/pages/images/hexin61.gif" style="width:250px"></image>
+  </view>
+ </scroll-view>
+</view>
+</swiper-item>
+
+<swiper-item>
+
+ <view class='scroll_box'>
+ <scroll-view scroll-y="true" style="height:1000rpx"
+ bindscrolltoupper="upper"
+  bindscrolltolower="lower"
+   bindscroll="scroll"
+   scroll-into-view="red"
+     scroll-top="50">
+  <view>
+   <view>动作一</view>
+   <image src="/pages/images/jian1.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作二</view>
+   <image src="/pages/images/jian2.gif" style="width:250px"></image>
+  </view>
+ </scroll-view>
+</view>
+</swiper-item>
+
+<swiper-item>
+
+ <view class='scroll_box'>
+ <scroll-view scroll-y="true" style="height:1000rpx"
+ bindscrolltoupper="upper"
+  bindscrolltolower="lower"
+   bindscroll="scroll"
+   scroll-into-view="red"
+     scroll-top="50">
+  <view>
+   <view>动作一</view>
+   <image src="/pages/images/shoubi1.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作二</view>
+   <image src="/pages/images/shoubi2.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作三</view>
+   <image src="/pages/images/shoubi3.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作四</view>
+   <image src="/pages/images/shoubi4.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作五</view>
+   <image src="/pages/images/shoubi5.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作六</view>
+   <image src="/pages/images/shoubi6.gif" style="width:250px"></image>
+  </view>
+ </scroll-view>
+</view>
+</swiper-item>
+
+<swiper-item>
+
+ <view class='scroll_box'>
+ <scroll-view scroll-y="true" style="height:1000rpx"
+ bindscrolltoupper="upper"
+  bindscrolltolower="lower"
+   bindscroll="scroll"
+   scroll-into-view="red"
+     scroll-top="50">
+  <view>
+   <view>动作一</view>
+   <image src="/pages/images/tui1.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作二</view>
+   <image src="/pages/images/tui2.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作三</view>
+   <image src="/pages/images/tui3.gif" style="width:250px"></image>
+  </view>
+ </scroll-view>
+</view>
+</swiper-item>
+<swiper-item>
+
+ <view class='scroll_box'>
+ <scroll-view scroll-y="true" style="height:1000rpx"
+ bindscrolltoupper="upper"
+  bindscrolltolower="lower"
+   bindscroll="scroll"
+   scroll-into-view="red"
+     scroll-top="50">
+  <view>
+   <view>动作一</view>
+   <image src="/pages/images/xiong1.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作二</view>
+   <image src="/pages/images/xiong2.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作三</view>
+   <image src="/pages/images/xiong3.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作四</view>
+   <image src="/pages/images/xiong4.gif" style="width:250px"></image>
+  </view>
+  <view>
+   <view>动作五</view>
+   <image src="/pages/images/xiong51.gif" style="width:250px"></image>
+  </view>
+ </scroll-view>
+</view>
+</swiper-item>
+</swiper>

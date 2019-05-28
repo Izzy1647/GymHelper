@@ -1,0 +1,36 @@
+<view class='readmore'>
+  <view class='overview'>
+  <view class='title-tip'>1、力量训练：</view>
+  <view class='content {{readmore.status ? "hidden" : ""}}'>
+    力量训练是指通过多次数、多组数，有节奏的负重练习，并达到改善肌肉群力量、耐力和形状的运动方式。力量训练主要是无氧运动，比如负重深蹲、俯卧撑、杠铃划船等练习动作。不过我们可以通过轻重量、多次数、多组数的循环练习方式，使之兼具有氧运动的优点，可将无氧代谢产生的乳酸再次分解利用，减少肌肉不适感。
+  </view>
+  <view class='readmore-tip' bindtap='toggle'>{{readmore.tip}}</view>
+</view>
+</view>
+
+<view class='readmore'>
+  <view class='overview'>
+  <view class='title-tip'>2、运动中怎样补水？</view>
+  <view class='content {{readmore.status ? "hidden" : ""}}'>
+    运动前就要喝水，尤其是做消耗体能多的运动时，以防运动时补水不及时。一般运动前一个小时到一个半小时就应该喝水。建议每15分钟喝水一次，每个人运动时排汗量不同，需要补充的水分也不一样，只要保证不感到口渴就行。一般来说，易出汗的人最好每15—20分钟补充110—170毫升的水，大约10—15小口。
+  </view>
+  <view class='readmore-tip' bindtap='toggle'>{{readmore.tip}}</view>
+</view>
+</view>
+ 
+
+<view class='readmore'>
+  <view class='overview'>
+  <view class='title-tip'>3、运动后的拉伸</view>
+  <view class='content {{readmore.status ? "hidden" : ""}}'>
+   拉伸的具体好处有：
+     增加肌肉的活性，快速投入到运动中
+     增加肌肉延展性，减少运动中的拉伤、撕裂
+     增加关节的活动范围，提高动作的质量
+     增加柔韧度，缓解肌肉酸痛
+    建议：训练前动态拉伸热身，训练后静态拉伸。
+  </view>
+  <view class='readmore-tip' bindtap='toggle'>{{readmore.tip}}</view>
+</view>
+</view>
+

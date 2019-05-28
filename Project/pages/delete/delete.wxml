@@ -1,0 +1,1 @@
+<button type="primary" class="clear" bindtap="clearStorage" loading="{{loading}}" disabled="{{disabled}}">清空缓存</button> 
